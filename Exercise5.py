@@ -5,7 +5,7 @@
 
 import re
 def text_match(text):
-        patterns = 'abbb+'
+        patterns = 'ab{3}?'
         if re.search(patterns,  text):
                 return 'Found a match!'
         else:
